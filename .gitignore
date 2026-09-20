@@ -1,0 +1,14 @@
+# Build output (References/ vendored reference sources live under bin/ and are
+# reference-only, not build inputs - re-add explicitly if you ever want them tracked)
+[Bb]in/
+[Oo]bj/
+publish/
+
+# IDE
+.vs/
+.idea/
+.vscode/
+*.user
+
+# Releases
+Releases/
